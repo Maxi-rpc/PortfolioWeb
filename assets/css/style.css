@@ -4,6 +4,7 @@
 	--dark: #343a40;
 	--light: #f8f9fa;
 	--border-color: rgba(225, 225, 226, 0.8);
+	--border-radius: 3px;
 }
 
 * {
@@ -25,7 +26,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	border-bottom: 1px solid var(--border-color);
-	border-radius: 3px;
+	border-radius: var(--border-radius);
 	background-color: var(--dark);
 	color: var(--light);
 	height: 40px;
@@ -64,6 +65,22 @@ a {
 	box-shadow: 0px 0px 10px #ccc;
 }
 
+#footer {
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: var(--dark);
+	border-radius: var(--border-radius);
+	text-align: center;
+	color: var(--light);
+}
+
+#footer ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .icon {
-	color: var(--dark);
+	font-size: 25px;
+	margin: 20px 5px;
 }
