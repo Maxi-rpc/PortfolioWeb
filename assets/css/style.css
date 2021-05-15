@@ -1,8 +1,15 @@
-/* Fonts predeterminada ROBOTO */
+/* Fonts predeterminada ROBOTO y tools */
 :root {
-	--primary: lightblue;
+	--primary: #212121;
+	--primary-light: #484848;
+	--primary-dark: #000000;
+	--secondary: #2962ff;
+	--secondary-light: #768fff;
+	--secondary-dark: #0039cb;
 	--dark: #343a40;
+	--black: #000000;
 	--light: #f8f9fa;
+	--white: #ffff;
 	--border-color: rgba(225, 225, 226, 0.8);
 	--border-radius: 3px;
 }
@@ -13,6 +20,24 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+body {
+	background-color: var(--primary);
+}
+
+a {
+	color: var(--light);
+}
+
+.border-rounded {
+	border-radius: var(--border-radius);
+}
+
+.bg-primary {
+	background-color: var(--primary-light);
+}
+
+/* Css propio */
 
 #container {
 	width: 90%;
@@ -25,9 +50,6 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	border-bottom: 1px solid var(--border-color);
-	border-radius: var(--border-radius);
-	background-color: var(--dark);
 	color: var(--light);
 	height: 40px;
 }
@@ -53,24 +75,10 @@
 	margin-right: 15px;
 }
 
-a {
-	color: var(--light);
-}
-
-.card {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	min-height: 90vh;
-	border: 1px solid var(--border-color);
-	box-shadow: 0px 0px 10px #ccc;
-}
-
 #footer {
 	height: auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: var(--dark);
-	border-radius: var(--border-radius);
 	text-align: center;
 	color: var(--light);
 }
@@ -82,5 +90,5 @@ a {
 
 .icon {
 	font-size: 25px;
-	margin: 20px 5px;
+	margin: 10px;
 }
