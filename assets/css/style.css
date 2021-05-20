@@ -1,268 +1,267 @@
 /* Fonts predeterminada ROBOTO y tools */
 :root {
-  --color-primary: #212121;
-  --color-primary-light: #484848;
-  --color-primary-dark: #000000;
-  --color-secondary: #2962ff;
-  --color-secondary-light: #768fff;
-  --color-secondary-dark: #0039cb;
-  --color-dark: #343a40;
-  --color-black: #000000;
-  --color-light: #f8f9fa;
-  --color-white: #ffff;
-  --border-color: rgba(225, 225, 226, 0.8);
-  --border-radius: 5px;
+	--color-primary: #212121;
+	--color-primary-light: #484848;
+	--color-primary-dark: #000000;
+	--color-secondary: #2962ff;
+	--color-secondary-light: #768fff;
+	--color-secondary-dark: #0039cb;
+	--color-dark: #343a40;
+	--color-black: #000000;
+	--color-light: #f8f9fa;
+	--color-white: #ffff;
+	--border-color: rgba(225, 225, 226, 0.8);
+	--border-radius: 5px;
 }
 
 * {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-  color: var(--color-light);
-  list-style: none;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	color: var(--color-light);
+	list-style: none;
 }
 
 body {
-  background-color: var(--color-primary);
+	background-color: var(--color-primary);
 }
 
 /* Utiles */
 
 .border-rounded {
-  border-radius: var(--border-radius);
+	border-radius: var(--border-radius);
 }
 
 .bg-primary {
-  background-color: var(--color-primary-light);
+	background-color: var(--color-primary-light);
 }
 
 .barra-espacio {
-  height: 10px;
+	height: 10px;
 }
 
 .marcar-bordes {
-  border: 2px solid orange;
+	border: 2px solid orange;
 }
 
 .col-6 {
-  width: 50%;
+	width: 50%;
 }
 
 .col-12 {
-  width: 100%;
+	width: 100%;
 }
 
 /* Css propio */
 
 #container {
-  width: 90%;
-  height: auto;
-  margin: 0px auto;
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
 }
 
 #header {
-  color: var(--color-light);
-  height: auto;
+	color: var(--color-light);
+	height: auto;
 }
 
 #navbar {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 15px;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px;
 }
 
 #navbar ul {
-  list-style: none;
-  display: flex;
+	list-style: none;
+	display: flex;
 }
 
 .navbar-item {
-  text-transform: uppercase;
-  margin: 10px;
-  font-size: 1rem;
+	text-transform: uppercase;
+	margin: 10px;
+	font-size: 1rem;
 }
 
 #slider {
-  width: auto;
-  background-color: #0039cb;
-  min-height: 300px;
+	width: auto;
+	background-color: #0039cb;
+	min-height: 300px;
 }
 
 #skills {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
 }
 
 #portfolio {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #footer {
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  opacity: 0.8;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	opacity: 0.8;
 }
 
 #footer ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .icon {
-  font-size: 25px;
-  margin: 10px;
+	font-size: 25px;
+	margin: 10px;
 }
 
 /* Card */
 .card {
-  background-color: var(--color-primary-light);
-  border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  max-width: 30%;
-  margin-bottom: 20px;
+	background-color: var(--color-primary-light);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	max-width: 30%;
+	margin-bottom: 20px;
 }
 
 .card-preview {
-  /*background-color: var(--color-secondary);*/
-  color: var(--color-light);
-  border-radius: 5px;
+	/*background-color: var(--color-secondary);*/
+	color: var(--color-light);
 }
 
 .card-preview h6 {
-  opacity: 0.8;
-  text-transform: uppercase;
-  padding: 10px;
-  text-align: right;
+	opacity: 0.8;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: right;
 }
 
 .card-preview img {
-  width: 100%;
+	width: 100%;
 }
 
 .card-body {
-  padding: 10px;
+	padding: 10px;
 }
 
 .card-body h4 {
-  padding-top: 10px;
+	padding-top: 10px;
 }
 
 .card-body h2 span {
-  background-color: var(--color-secondary);
-  border-radius: 3px;
-  padding: 3px;
-  font-weight: 300;
+	background-color: var(--color-secondary);
+	border-radius: 3px;
+	padding: 3px;
+	font-weight: 300;
 }
 
 .card-body p {
-  padding-top: 10px;
-  opacity: 0.8;
-  min-height: 50px;
+	padding-top: 10px;
+	opacity: 0.8;
+	min-height: 50px;
 }
 
 .card-footer {
-  margin-top: 2%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+	margin-top: 2%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 
 .btn {
-  background-color: var(--color-secondary);
-  color: var(--color-light);
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  border: none;
+	background-color: var(--color-secondary);
+	color: var(--color-light);
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: none;
 }
 
 .btn:hover {
-  background-color: var(--color-secondary-light);
-  color: white;
-  cursor: pointer;
+	background-color: var(--color-secondary-light);
+	color: white;
+	cursor: pointer;
 }
 
 .container-progress {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
 }
 
 .container-progress h4 {
-  font-weight: lighter;
-  text-transform: uppercase;
+	font-weight: lighter;
+	text-transform: uppercase;
 }
 
 .container-progress h6 {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .progress {
-  background: rgba(255, 255, 255, 0.1);
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  display: flex;
-  height: 5px;
-  width: 400px;
-  margin-right: 10px;
-  margin-left: 10px;
+	background: rgba(255, 255, 255, 0.1);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	height: 5px;
+	width: 400px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 .progress-value {
-  animation: load 3s normal forwards;
-  border-radius: 100px;
-  background: var(--color-secondary);
-  height: 10px;
-  width: 0;
+	animation: load 3s normal forwards;
+	border-radius: 100px;
+	background: var(--color-secondary);
+	height: 10px;
+	width: 0;
 }
 
 @keyframes load {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 70%;
+	}
 }
 
 .progress-50 {
-  animation: load50 3s normal forwards;
+	animation: load50 3s normal forwards;
 }
 
 @keyframes load50 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 50%;
-  }
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50%;
+	}
 }
 
 .progress-90 {
-  animation: load90 3s normal forwards;
+	animation: load90 3s normal forwards;
 }
 
 @keyframes load90 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 90%;
-  }
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 90%;
+	}
 }
