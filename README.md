@@ -1,26 +1,25 @@
-# Portfolio Web creado en Prog-3 para UTN - FRGP - Tecnicatura Superior en Programación
+# Portfolio Web
+Página web creado en Prog-3 para UTN - FRGP - Tecnicatura Superior en Programación.
+Se creo utilizando HTML, CSS, JS junto a Visual Studio Code.
 
 ### Tecnología implementada:
 
-- Html
-- Css
-- Js
+* Html
+* Css
+* Js
+* **CodeBlocks**
+* GitHub
 
-### Las siguientes secciones fueron creadas:
+### Créditos
+Este proyecto fue creado por [Maximiliano Miranda](https://github.com/Maxi-rpc) el cual se utilizo Visual Studio Code, utilizando como repositorio GitHub para tener control del versionado.
 
-- Header
-- Slide
-- Portfolio
-- Contact
+# Imágenes
 
-# Header
+## Header y Nav
+![menu](/readme/portfolio-1.png)
 
-Se encuentra el logo / menú de navegación.
+## Skills y Portfolio
+![menu](/readme/portfolio-2.png)
 
-# Slide
-
-Un avatar junto a una breve descripcion de mi desarrollo dia a dia.
-
-# Portfolio
-
-Se encuentran algunos de los proyectos realizados en la **UTN** y otros externos.
+## Footer
+![menu](/readme/portfolio-3.png)
