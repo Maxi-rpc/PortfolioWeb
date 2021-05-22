@@ -4,6 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--Fav Icon-->
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="./assets/img/code.svg"
+			sizes="any"
+		/>
 		<!--Fonts-->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
@@ -29,23 +36,33 @@
 			<div id="header" class="bg-primary border-rounded">
 				<nav id="navbar">
 					<div id="logo">
-						<h2>Maximiliano Miranda</h2>
+						<i class="fas fa-code"></i>
 					</div>
 					<ul>
-						<li class="navbar-item"><a href="#">Home</a></li>
+						<li class="navbar-item"><a href="#bio">Inicio</a></li>
+						<li class="navbar-item"><a href="#skills">Skills</a></li>
 						<li class="navbar-item"><a href="#portfolio">Portfolio</a></li>
-						<li class="navbar-item"><a href="#">Contact</a></li>
+						<li class="navbar-item"><a href="#footer">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="barra-espacio"></div>
-
-			<section id="slider" class="border-rounded">
-				<img src="" alt="slide-1" />
-				<h1 class="title">Aca va el slider</h1>
-				<p>Texto sobre mi</p>
-				<div><h3>Avatar</h3></div>
+			<!--Presentacion-->
+			<section id="bio" class="border-rounded">
+				<div class="row content-center item-center">
+					<div class="col">
+						<h1 class="title">Hola Soy Max</h1>
+						<p>
+							Soy estudiante de programación, futuro desarrollador de Software,
+							Web y Apps Mobile.
+						</p>
+					</div>
+					<div class="col">
+						<img class="avatar" src="./assets/img/avatar.jpg" alt="" />
+					</div>
+				</div>
 			</section>
+			<!--/Presentacion-->
 			<div class="barra-espacio"></div>
 
 			<!--Skills-->
@@ -141,10 +158,10 @@
 						</p>
 						<div class="card-footer">
 							<a
-								href="https://github.com/Maxi-rpc/UTN-Repositorio/tree/master/Laboratorio-1/generala-lab1"
+								href="https://github.com/Maxi-rpc/UTN-Lab1-Generala"
 								target="_blank"
-								><button class="btn">Ver código</button></a
-							>
+								><i class="fab fa-github btn"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -165,8 +182,8 @@
 							<a
 								href="https://github.com/Maxi-rpc/UTN-Lab2-ProyectoFinalSASA"
 								target="_blank"
-								><button class="btn">Ver código</button></a
-							>
+								><i class="fab fa-github btn"></i
+							></a>
 						</div>
 					</div>
 				</div>
@@ -185,10 +202,10 @@
 						</p>
 						<div class="card-footer">
 							<a
-								href="https://github.com/Gaston-Paz/tp-winform-Miranda-Paz"
+								href="https://github.com/Maxi-rpc/UTN-Prog3-WinFormABM"
 								target="_blank"
-								><button class="btn">Ver código</button></a
-							>
+								><i class="fab fa-github btn"></i
+							></a>
 						</div>
 					</div>
 				</div>
@@ -209,8 +226,8 @@
 							<a
 								href="https://github.com/Maxi-rpc/FullStack-Devs"
 								target="_blank"
-								><button class="btn">Ver código</button></a
-							>
+								><i class="fab fa-github btn"></i
+							></a>
 							<a href="http://maxonline.esy.es" target="_blank"
 								><button class="btn">Live</button></a
 							>
@@ -234,8 +251,8 @@
 							<a
 								href="https://github.com/Maxi-rpc/FullStack-Devs"
 								target="_blank"
-								><button class="btn">Ver código</button></a
-							>
+								><i class="fab fa-github btn"></i
+							></a>
 							<a href="http://maxonline.esy.es/user/login" target="_blank"
 								><button class="btn">Live</button></a
 							>
@@ -285,6 +302,7 @@
 
 			<!--Footer-->
 			<footer id="footer" class="bg-primary border-rounded">
+				<p>Buscame en mis redes!</p>
 				<ul>
 					<li>
 						<a
